@@ -12,6 +12,7 @@ function App() {
     "yellow",
     "purple",
     "orange",
+    "indigo",
   ];
 
   const randomColor = () => {
@@ -50,7 +51,7 @@ function App() {
                 focus:outline-none
                 ${
                   item === color
-                    ? "ring-4 shadow-stone-500 scale-105"
+                    ? "shadow-stone-500 scale-105"
                     : ""
                 }
                 ${item === "yellow" ? "text-black" : "text-white"}
