@@ -47,6 +47,7 @@ function App() {
                 px-5 py-2 rounded-lg shadow-lg
                 transition-all duration-300
                 hover:scale-105 hover:-translate-y-1
+                focus:outline-none
                 ${
                   item === color
                     ? "ring-4 shadow-stone-500 scale-105"
